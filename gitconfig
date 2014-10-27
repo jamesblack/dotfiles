@@ -4,10 +4,11 @@
 
 [core]
   editor = subl -n -w
+  excludesfile = /opt/boxen/config/git/gitignore
 
 [color]
-  ui = true
-
+  ui = auto # covers diff = true, status = auto, branch = auto
+  interactive = auto
 [credential]
   helper = osxkeychain
 
