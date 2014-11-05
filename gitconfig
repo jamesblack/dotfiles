@@ -10,7 +10,7 @@
   ui = auto # covers diff = true, status = auto, branch = auto
   interactive = auto
 [credential]
-  helper = osxkeychain
+  helper = /opt/boxen/bin/boxen-git-credential
 
 [alias]
   s = status
@@ -28,3 +28,6 @@
   insteadOf = git://
 [push]
   default = simple
+
+[hub]
+protocol = https
