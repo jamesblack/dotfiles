@@ -1,4 +1,5 @@
 {
   "set_up_git_config": true,
-  "set_osx_defaults": true
+  "set_osx_defaults": true,
+  "install_dot_files": true,
 }
