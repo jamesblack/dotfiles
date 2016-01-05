@@ -1,5 +1,24 @@
 {
   "set_up_git_config": true,
   "set_osx_defaults": true,
-  "install_dot_files": true
+  "install_dot_files": true,
+  "install_brew_cask_and_casks": true,
+  "install_homebrew_and_packages": true,
+  "install_npm_modules": false,
+  "remove_default_apple_apps": true,
+  "brew_installs": [
+    "mongodb"
+  ],
+  "brew_casks": [
+    "google-chrome",
+    "heroku-toolbelt",
+    "spotify"
+  ],
+  "global_npm_modules": {
+
+  },
+  "apple_apps_to_remove": [
+    "Chess.app",
+    "Game Center.app"
+  ]
 }
