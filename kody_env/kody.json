@@ -12,7 +12,9 @@
   "brew_casks": [
     "google-chrome",
     "heroku-toolbelt",
-    "spotify"
+    "spotify",
+    "dropbox",
+    "atom"
   ],
   "global_npm_modules": {
 
