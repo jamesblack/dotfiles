@@ -14,10 +14,14 @@
     "heroku-toolbelt",
     "spotify",
     "dropbox",
-    "atom"
+    "atom",
+    "caffeine",
+    "moom",
+    "slack",
+    "sourcetree"
   ],
   "global_npm_modules": {
-
+    "node-dev": "latest"
   },
   "apple_apps_to_remove": [
     "Chess.app",

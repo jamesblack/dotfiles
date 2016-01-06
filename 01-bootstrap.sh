@@ -9,3 +9,9 @@ nvm alias default node
 nvm use default
 
 npm install -g kody
+
+cd kody_env
+
+kody
+
+apm stars -u jamesblack -i
