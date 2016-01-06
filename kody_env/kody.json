@@ -18,7 +18,8 @@
     "caffeine",
     "moom",
     "slack",
-    "sourcetree"
+    "sourcetree",
+    "iterm2"
   ],
   "global_npm_modules": {
     "node-dev": "latest"
