@@ -26,6 +26,7 @@ brew 'elasticsearch@1.7'
 # Apps
 cask 'alfred'
 cask 'bee'
+cask 'caffeine'πsp
 cask 'tunnelblick'
 cask '1password'
 cask 'discord'
