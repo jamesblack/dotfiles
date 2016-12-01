@@ -5,9 +5,3 @@ source ~/.nvm/nvm.sh
 nvm install node
 nvm alias default node
 nvm use default
-
-#npm install -g kody
-
-#cd kody_env
-
-#kody
