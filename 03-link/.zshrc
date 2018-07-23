@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -75,32 +75,10 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 
-export GOPATH="$HOME/Code/go"
-export GOBIN="$GOPATH/bin"
-
-export PATH=$GOBIN:~/.bin:$PATH
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias fs="([[ -a Procfile.dev ]] && foreman start -f Procfile.dev) || foreman start"
-# get ip addresses
-alias myip='ipconfig getifaddr en0; curl ipecho.net/plain; echo'
-# Open up coverage report
-alias coverage='open coverage/lcov-report/index.html'
 # show/hide hidden files in finder
 alias show='defaults write com.apple.finder AppleShowAllFiles -bool TRUE; killall Finder;'
 alias hide='defaults write com.apple.finder AppleShowAllFiles -bool FALSE; killall Finder;'
-# makes a directory and moves to it
-function dir() { mkdir -p "${1}" && cd $_; }
+
 # sets default ls action to have trailing slashes at the end of directories
 alias ls='ls -p'
 alias ll='ls -la'
-# starts simple http server in current directory
-alias static='python -m SimpleHTTPServer'
-
-DEFAULT_USER=jamesblack
-
-export NVM_DIR="/Users/jamesblack/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
